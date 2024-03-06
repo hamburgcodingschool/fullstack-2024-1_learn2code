@@ -39,6 +39,7 @@ These summaries are not meant to be comprehensive, and it will probably only mak
 ### Resources
 
 -   https://eloquentjavascript.net/01_values.html
+-   https://www.youtube.com/playlist?list=PLRqwX-V7Uu6Zy51Q-x9tMWIv9cueOFTFA
 
 ## Day 2 -- 2024-03-08
 
