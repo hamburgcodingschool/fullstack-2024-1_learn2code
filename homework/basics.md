@@ -34,7 +34,7 @@ What does `"20"+24` do? Try it! Can you explain the behavior?
 
 Hint: Read the Eloquent JS section on [type conversion](https://eloquentjavascript.net/01_values.html#h-AY+YGu6qyM).
 
-## 1b) Asking for different data types with readline-sync
+### 1b) Asking for different data types with readline-sync
 
 In class we have seen, how to ask a user for their name, like this:
 
@@ -54,7 +54,7 @@ Now add 3 to the number and give it back as well:
 
 -   "Thanks for letting me know your favorite number. If we add 3, we get: 10"
 
-### Hints
+#### Hints
 
 If you try this, you might get the problem as shown in exercise 1a, that there's an automatic type conversion happening.
 Your output might look like: "Thanks for letting me know your favorite number. If we add 3, we get: 73".
