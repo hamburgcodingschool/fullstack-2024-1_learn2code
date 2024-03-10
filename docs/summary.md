@@ -3,7 +3,7 @@
 Here you find some keywords of things we have discussed or worked on.
 These summaries are not meant to be comprehensive, and it will probably only make sense to you if you have attended the session.
 
-## Day 1 -- 2024-03-06
+## Day 1 – 2024-03-06
 
 -   Get to know each other
 -   Intro to JavaScript by using the browser console (developer tools)
@@ -44,7 +44,7 @@ These summaries are not meant to be comprehensive, and it will probably only mak
     -   if you maybe like to have things moving visually
     -   this is totally optional, but I thought I'd refer you to it.
 
-## Day 2 -- 2024-03-08
+## Day 2 – 2024-03-08
 
 -   Repeating concepts from last time
     -   What data types do you remember?
@@ -85,17 +85,16 @@ These summaries are not meant to be comprehensive, and it will probably only mak
 -   Boolean Operators
 -   Homework
     -   To repeat and go deeper, have a look at EloquentJS [Chapter 2](https://eloquentjavascript.net/02_program_structure.html)
-    -   Work on the Homework Exercises
-        -   (TODO: moritz will them, dependent on how far we get.)
+    -   Work on the [Homework Exercises](../homework/basics.md).
 
-## Day 3 -- 2024-03-11
+## Day 3 – 2024-03-11
 
-## Day 4 -- 2024-03-13
+## Day 4 – 2024-03-13
 
-## Day 5 -- 2024-03-15
+## Day 5 – 2024-03-15
 
-## Day 6 -- 2024-03-18
+## Day 6 – 2024-03-18
 
-## Day 7 -- 2024-03-20
+## Day 7 – 2024-03-20
 
-## Day 8 -- 2024-03-22
+## Day 8 – 2024-03-22
