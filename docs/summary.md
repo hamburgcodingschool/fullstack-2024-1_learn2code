@@ -90,6 +90,7 @@ These summaries are not meant to be comprehensive, and it will probably only mak
 ## Day 3 – 2024-03-11
 
 -   Repetition from last time: NodeJS in VSCode
+
     -   the terminal program that is configured for your system let's you start `node`
     -   you can exit `node` by typing `.exit`, but this doesn't work for the terminal program itself ("Command not found" or something similar)
     -   you can not run `node` inside `node` (`Uncaught ReferenceError: node is not defined`)
@@ -101,30 +102,34 @@ These summaries are not meant to be comprehensive, and it will probably only mak
     -   why terminal is named terminal
     -   in `node` we don't have `prompt` available (why? most don't need it in the backend!)
     -   using `npm` to install a package called [readline-sync](https://www.npmjs.com/package/readline-sync)
+
 -   exercise: Write a currency converter. It should ask the user for a number (euros) and compute the resulting amount for a currency of your choice
+
     -   converting the user input into a number
         -   option 1: using the [`Number` constructor](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/Number)
         -   option 2: ask the user for a float in the first place, with `readlinesync.questionFloat`.
     -   store that into a variable and calculate the output
     -   example of how to make code nicer
         -   by going "step by step" and use "speaking variable names" in each of the steps
+
 -   more about Variables
     -   changing a variable throughout the code
     -   assignment operators (`+=`, `*=`, ...)
 -   exercise: fill out [this code](../code/day-03/variables-exercise.js) such that it works correctly!
+    -   solution can be found [here](../code/day-03/variables-exercise-solution.js).
 -   get to know the boolean data type better and apply that using conditional logic statements (`if`/`else`)
     -   operators that deal with booleans
         -   comparison operators
         -   logical operators
             -   binary vs unary
     -   how the `if` statement looks like
-        -   why it's recommended to always add the `{`/`}` to denote the block
-        -   adding an optional `else` block
-        -   Transforming your code into a logical flow-diagram
-            -   How to draw multiple if statements in such a diagram?
 -   exercise: Ask the user for a year and tell them whether it is a leap year or not
 
 ## Day 4 – 2024-03-13
+
+-   more about the if statement
+    -   Transforming your code into a logical flow-diagram
+        -   How to draw multiple if statements in such a diagram?
 
 ## Day 5 – 2024-03-15
 
