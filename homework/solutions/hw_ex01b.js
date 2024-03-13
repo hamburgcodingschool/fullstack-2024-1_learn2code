@@ -1,6 +1,7 @@
 let readlineSync = require("readline-sync");
 let name = readlineSync.question("What's your name? ");
 let favoriteNumber = readlineSync.questionInt("What's your favorite number? ");
+// similar: let favoriteNumber = Number(readlineSync.question("..."))
 console.log("Hello, " + name + ", welcome to my program!");
 console.log("Thanks for letting me know your favorite number.");
 console.log("Your favorite number is: " + favoriteNumber);

@@ -127,9 +127,31 @@ These summaries are not meant to be comprehensive, and it will probably only mak
 
 ## Day 4 – 2024-03-13
 
+-   review of the homework
 -   more about the if statement
+    -   these if statements can be nested!
     -   Transforming your code into a logical flow-diagram
         -   How to draw multiple if statements in such a diagram?
+        -   see my [notes](./notes.pdf) for a few badly drawn illustrations :D
+-   how to approach a coding problem (of course only Moritz' perspective and ideas)
+    -   think about it
+        -   Does the requirements/question make sense to you? If not, can you formulate a question?
+        -   How would you solve the problem without a computer?
+        -   How would you expect the program to look like? (Have you seen similar programs before?)
+        -   Which programming elements might you need in your approach?
+    -   try it
+        -   trying is about taking and testing tiny steps towards the solution
+        -   do the elements that you were considering in the previous step actually work?
+            -   use the console / interpreter / whatever before building the whole thing!
+    -   solve it
+        -   this step is to write down a working solution. It doesn't need to be "nice".
+    -   review it
+        -   now it's for making it nicer. Can you make your code more understandable/readable?
+        -   do you understand why it works? Sometimes you get a lucky shot. What do you still find confusing?
+-   short circuiting boolean operator
+    -   example [here](../code/day-04/short_circuit.js)
+    -   see [eloquentjs](https://eloquentjavascript.net/01_values.html#i-3jN0iK4yKW) for a detailed explanation
+-   [preview](../code/day-04/password_with_loops.js) of the `while` loop, more on that on day 5.
 
 ## Day 5 – 2024-03-15
 

@@ -84,3 +84,45 @@ This will require `if/else` as well.
 #### Hints
 
 This rounding to two digits is a very common scenario where you will find lots of different methods online. Challenge might be to find the "best" one.
+
+## Exercise 6
+
+### Calculate grade.
+
+As you might now, in the USA basic school grades are from A (best) to F (failed), while in Germany they are from 1 (best) to 6 (failed). Decide for one system.
+
+Then write a program that asks for a score between 0 and 100 and converts that to a grade:
+| from | to | grade US | grade DE |
+| ---- | -- | -------- | -------- |
+| 0 | 24 | F | 6 |
+| 25 | 64 | doesn't really exist, but you can put E | 5 |
+| 65 | 69 | D | 4 |
+| 70 | 79 | C | 3 |
+| 80 | 89 | B | 2 |
+| 90 | 100 | A | 1 |
+
+Stretch goal: Include some intermediate grades, e.g. B+, D- as well.
+
+## Exercise 7
+
+### Multilingual Greeting
+
+When the program starts, ask the user which language they want to select, then greet the user. It should default to English if the user input doesn't match to a language.
+
+Hint: This is similar to Exercise 6, but you have more freedom (for example which languages do you want?), so it's a bit more tricky.
+
+Stretch Goal: Combine Exercise 6 and 7. First ask for country system to grade in, then ask for a score. Output should be according to the table in that country.
+
+## Exercise 8
+
+### In a dungeon find the spaghetti monster
+
+This is an open ended creative exercise that shows you that you could already program a little game with conditions only. I put an example [here](08_dungeon.js), and you can use that however you want to create your own little text adventure game.
+
+Here are some steps how you could start:
+
+1. Try and run the code without reading it first, to have the "gaming experience".
+2. Probably you need to run it multiple times to play through the game :D
+3. Now read the code and try to understand how it's connected to the gameplay.
+4. Modify the code a little bit and see if it had the desired effect
+5. Add some rooms and options to the dungeon and have fun! :)
