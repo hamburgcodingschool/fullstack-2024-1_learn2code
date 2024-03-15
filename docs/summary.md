@@ -155,6 +155,27 @@ These summaries are not meant to be comprehensive, and it will probably only mak
 
 ## Day 5 – 2024-03-15
 
+-   review of the homework and any questions that came up since last time
+    -   talked in depth about homework [exercise 4](../homework/control_flow.md#exercise-4) and compared different solutions
+-   further introduction to while loops
+    -   how `if` and `while` are quite similar syntax:
+        -   they both have a condition `(...)`
+        -   they both have a block of `{ ... }` that runs based on this condition
+    -   exercises (also see [`loop-demo.js`](../code/day-05/loop-demo.js))
+        1. try to run an infinite loop. How do you stop the program? (A: you could kill it with `Ctrl+C` for example)
+        2. change the loop condition, such that the loop runs for only 50 times. Print the loop variable, so we count upwards.
+        3. change the code, such that we display a countdown instead (e.g. 50, 49, 48, ..., 0)
+            - this can be done by changing the output to something like `50 - i`
+            - alternatively, you change the loop variable to start at `50` and _decrement_ it instead
+        4. write a loop that counts upwards to 20, but in steps of 2. Like: `0, 2, 4, 6, ..., 20`
+-   demonstrating the exercism platform, so you can practice yourself if you want to
+    -   log in with your github account
+    -   we tried the Hello World exercise of the JavaScript track
+    -   it's totally optional and extracurricular material, but I thought it would be cool to have it :)
+-   development practices
+    -   naming variables properly
+    -   putting your code into different files (which allows for easier sharing, for example)
+
 ## Day 6 – 2024-03-18
 
 ## Day 7 – 2024-03-20
