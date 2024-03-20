@@ -26,6 +26,7 @@ These summaries are not meant to be comprehensive, and it will probably only mak
         -   variables
         -   conditions (if ... else)
         -   loops (while, for)
+        -   arrays
         -   functions
     -   Problem Solving Skills and Coding Principles
         -   divide and conquer
@@ -177,6 +178,17 @@ These summaries are not meant to be comprehensive, and it will probably only mak
     -   putting your code into different files (which allows for easier sharing, for example)
 
 ## Day 6 – 2024-03-18
+
+-   homework / questions?
+    -   homework 9: sum loop
+        -   how to make output appear in the form of an equation?
+-   combining conditionals and loops
+    -   using an `if` inside a `while` for example.
+-   the `for`-loop
+    -   the form that I showed you is basically a "shortcut" version of the `while` loop.
+    -   it's mostly used for things where you have a running loop variable (like an `i`) that counts up or something
+-   introduction to arrays
+    -   see my notes, pages 15 and 16
 
 ## Day 7 – 2024-03-20
 
