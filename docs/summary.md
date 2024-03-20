@@ -192,4 +192,13 @@ These summaries are not meant to be comprehensive, and it will probably only mak
 
 ## Day 7 – 2024-03-20
 
+-   programming a number guessing game
+    -   goal: user should guess a random number between 1 and 100
+    -   they have 7 attempts and get information whether their number is too high or too low
+    -   if they manage, they win, if not, they loose
+-   introduction to functions.
+    -   see [function-demo.js](../code/day-07/function-demo.js) for some explanations/commentary
+-   rewriting the number guessing game with functions
+-   some small things with arrays
+
 ## Day 8 – 2024-03-22
