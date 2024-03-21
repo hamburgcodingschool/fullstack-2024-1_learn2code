@@ -65,3 +65,44 @@ I should get
 3
 22
 ```
+
+## Exercise 22
+
+### Hangman helper functions
+
+This homework will prepare everything we need in order to program a game of [hangman](<https://en.wikipedia.org/wiki/Hangman_(game)>) on Friday.
+
+#### `letterInWord(word, guess)`
+
+Write a function, that returns a boolean (`true`/`false`) dependent on whether a guessed letter is part
+
+```js
+// examples for letterInWord()
+console.log(letterInWord("vodoo", "f")); // false
+console.log(letterInWord("vodoo", "v")); // true
+console.log(letterInWord("vodoo", "i")); // true
+console.log(letterInWord("vodoo", "v")); // true
+```
+
+Hint: You can use a function named `indexOf` here.
+
+#### `updateBoard(guess)`
+
+This function will make sure to draw the correctly guessed letters on the board. The game will internally keep track of the board by using an array like this:
+
+```js
+let board = ["_", "_", "_", "_", "_", "_"]; // board for a 6 letter word
+```
+
+Given a guess, we need to update our `board` array to show the guessed character on the board.
+
+-   go over `word` character by character
+-   if character is equal to the guess replace the `"_"` in `board` on that position with the character of the guess.
+
+```js
+// Example for testing the function
+let word = "voodoo";
+let board = ["_", "_", "_", "_", "_", "_"];
+updateBoard("o");
+console.log(board); // ['_', 'o', 'o', '_', 'o', 'o'];
+```
