@@ -81,10 +81,9 @@ Write a function, that returns a boolean (`true`/`false`) dependent on whether a
 console.log(letterInWord("vodoo", "f")); // false
 console.log(letterInWord("vodoo", "v")); // true
 console.log(letterInWord("vodoo", "i")); // true
-console.log(letterInWord("vodoo", "v")); // true
 ```
 
-Hint: You can use a function named `indexOf` here.
+Hint: You can use a function named [`indexOf`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/indexOf) here.
 
 #### `updateBoard(guess)`
 
