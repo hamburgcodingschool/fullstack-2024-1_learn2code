@@ -148,6 +148,21 @@ ____|____`,
     console.log(frames[step]);
 }
 
+function welcome(letters) {
+    console.log("Welcome to");
+    console.log(`
+     _
+    | |
+    | |__   __ _ _ __   __ _ _ __ ___   __ _ _ __
+    | '_ \\ / _\` | '_ \\ / _\` | '_ \` _ \\ / _\` | '_ \\
+    | | | | (_| | | | | (_| | | | | | | (_| | | | |
+    |_| |_|\\__,_|_| |_|\\__, |_| |_| |_|\\__,_|_| |_|
+                        __/ |
+                       |___/
+`);
+    console.log("Try to guess a word, letter by letter.");
+    console.log(`The current word has ${letters} letters.`);
+}
 function gameloop() {
     attempts = 0;
     while (true) {
@@ -177,6 +192,7 @@ function gameloop() {
 }
 
 const secretWord = chooseWord();
+welcome(secretWord.length);
 let board = initializeBoard(secretWord);
 gameloop();
 console.log(`The word was "${secretWord}".`);
