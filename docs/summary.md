@@ -202,3 +202,10 @@ These summaries are not meant to be comprehensive, and it will probably only mak
 -   some small things with arrays
 
 ## Day 8 – 2024-03-22
+
+-   text-based game (exercise 8 homework)
+    -   if-tree
+    -   using a loop
+    -   using array or any other variables to keep track of things
+-   talk about steps to build hangman
+    -   and do the together! Result, see [here](../code/day-08/hangman.js)

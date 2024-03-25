@@ -46,9 +46,12 @@ console.log(getRandomName());
 function isItEven(number) {
     return number % 2 === 0;
 }
-
+// console.log(number); // fails, because number only exists inside the function
 console.log(isItEven(6));
 console.log(isItEven(7));
+let myNeatNumber = 10;
+console.log(isItEven(myNeatNumber));
+console.log("================");
 
 // Exercise:
 // Write a function that is called "printNumbers"
