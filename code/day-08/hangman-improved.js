@@ -52,6 +52,7 @@ function updateBoard(word, guessedLetter) {
     }
 }
 
+// drawing taken from here: https://ascii.co.uk/art/hangman
 function drawHangman(step) {
     const frames = [
         // 1
@@ -150,6 +151,7 @@ ____|____`,
 
 function welcome(letters) {
     console.log("Welcome to");
+    // drawing taken from here: https://ascii.co.uk/art/hangman
     console.log(`
      _
     | |
